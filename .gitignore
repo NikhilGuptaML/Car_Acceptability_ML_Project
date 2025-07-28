@@ -135,8 +135,10 @@ celerybeat.pid
 *.sage.py
 
 # Ignore generated files
-artifact/
-logs/
+artifact/*
+!artifact/.gitkeep
+logs/*
+!logs/.gitkeep
 *.pkl
 __pycache__/
 
