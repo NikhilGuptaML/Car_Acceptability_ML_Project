@@ -8,28 +8,28 @@ This is my first end-to-end Machine Learning project where I work on the Car Eva
 
 ## 📁 Project Structure
 
-End_to_end_ml_project/
-│
-├── main.py # Runs the complete training pipeline
-├── README.md # This file
-├── requirements.txt # Project dependencies
-├── notebook/ # Jupyter notebook(s) used for EDA and  including all the steps in a single file to understand flow of the project
-│
-├── src/
-│ ├── components/
-│ │ ├── data_ingestion.py # Handles data loading and splitting
-│ │ ├── data_transformation.py # Handles preprocessing & encoding
-│ │ └── model_trainer.py # Trains and evaluates ML models
-│ │
-│ ├── train_pipeline.py # Optional: Train pipeline logic
-│ ├── predict_pipeline.py # Optional: For future use
-│ ├── utils.py # Helper functions (e.g., save/load models)
-│ ├── logger.py # Logging utility
-│ └── exception.py # Custom exception handling
-│
-├── logs/ # Stores logs for debugging
-├── artifact/ # Stores trained models, transformed data, etc.
-└── .gitignore # Files to ignore in GitHub
+Car_Evaluation_ML_Project/<br>
+│<br>
+├── main.py # Runs the complete training pipeline<br>
+├── README.md # This file<br>
+├── requirements.txt # Project dependencies<br>
+├── notebook/ # Jupyter notebook(s) used for EDA and  including all the steps in a single file to understand flow of the project<br>
+│<br>
+├── src/<br>
+│ ├── components/<br>
+│ │ ├── data_ingestion.py # Handles data loading and splitting<br>
+│ │ ├── data_transformation.py # Handles preprocessing & encoding<br>
+│ │ └── model_trainer.py # Trains and evaluates ML models<br>
+│ │<br>
+│ ├── train_pipeline.py # Optional: Train pipeline logic<br>
+│ ├── predict_pipeline.py # Optional: For future use<br>
+│ ├── utils.py # Helper functions (e.g., save/load models)<br>
+│ ├── logger.py # Logging utility<br>
+│ └── exception.py # Custom exception handling<br>
+│<br>
+├── logs/ # Stores logs for debugging<br>
+├── artifact/ # Stores trained models, transformed data, etc.<br>
+└── .gitignore # Files to ignore in GitHub<br>
 
 
 ---
